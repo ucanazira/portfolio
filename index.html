@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ucanazira</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aboreto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-55"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/konecya" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Navbar Start -->
+      <div class="header-bar">
+        <div class="Logo">
+          <a href="index.html" rel="home">ucanazira</a>
+        </div>
+        <nav class="navbar">
+          <ul class="navbar-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li>
+              <a href="#blog-section">BLOG</a>
+
+              <ul class="sub-menu">
+                <li><a href="Food/index.html">FOOD</a></li>
+                <li><a href="Education/index.html">EDUCATION</a></li>
+                <li><a href="#">ART AND DESIGN</a></li>
+                <li><a href="#">CRAFTS AND DIY</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="search-box">
+          <div class="row">
+            <input
+              type="text"
+              id="input-box"
+              placeholder="Search"
+              autocomplete="off"
+            />
+            <button id="search-button">
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+          </div>
+        </div>
+        <div class="result-box"></div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+    <!--Main Content-->
+    <div class="main-content">
+      <section class="container">
+        <div class="slider-wrapper">
+          <div class="slider">
+            <div class="slide">
+              <img src="images/peradaban islam.jpg" alt="peradaban" />
+              <div class="headline" style="background-image: url('')">
+                <div class="headline-content">
+                  <h1>PERADABAN ISLAM</h1>
+                  <button>SEE MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/nazi.jpg" alt="nazi" />
+              <div class="headline" style="background-image: url('')">
+                <div class="headline-content">
+                  <h1>SEJARAH NAZI</h1>
+                  <button>SEE MORE</button>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <img src="images/peradaban islam.jpg" alt="romawi" />
+              <div class="headline" style="background-image: url('')">
+                <div class="headline-content">
+                  <h1>ROMAWI</h1>
+                  <button>SEE MORE</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="slider-nav">
+            <a href="#slide1"></a>
+            <a href="#slide2"></a>
+            <a href="#slide3"></a>
+          </div>
+        </div>
+
+        <h1 id="blog-section">BLOG</h1>
+
+        <div class="posts-wrapper">
+          <div class="post">
+            <img src="images/peradaban islam.jpg" alt="Post 1" />
+            <div class="post-content">
+              <h3>Peradaban Islam</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                convallis libero in dolor pretium, eget.
+              </p>
+              <button>SEE MORE</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="images/peradaban islam.jpg" alt="Post 1" />
+            <div class="post-content">
+              <h3>The Golden Age</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                convallis libero in dolor pretium, eget.
+              </p>
+              <button>SEE MORE</button>
+            </div>
+          </div>
+          <div class="post">
+            <img src="images/nazi.jpg" alt="Post 2" />
+            <div class="post-content">
+              <h3>Awal Kebangkitan Nazi</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                convallis libero in dolor pretium, eget.
+              </p>
+              <button>SEE MORE</button>
+            </div>
+          </div>
+
+          <div class="post">
+            <img src="images/peradaban islam.jpg" alt="Post 3" />
+            <div class="post-content">
+              <h3>Dinasti Abbasiyah</h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla
+                convallis libero in dolor pretium, eget.
+              </p>
+              <button>SEE MORE</button>
+            </div>
+          </div>
+          <section class="gallery-section">
+            <h1 class="gallery-title">GALLERY</h1>
+            <div class="gallery">
+              <div class="gallery-item">
+                <img src="images/poster1.jpg" alt="Gallery Image 1" />
+              </div>
+              <div class="gallery-item">
+                <img src="images/poster1.jpg" alt="Gallery Image 2" />
+              </div>
+              <div class="gallery-item">
+                <img src="images/poster1.jpg" alt="Gallery Image 3" />
+              </div>
+              <div class="gallery-item">
+                <img src="images/poster1.jpg" alt="Gallery Image 4" />
+              </div>
+              <div class="gallery-item">
+                <img src="images/poster1.jpg" alt="Gallery Image 4" />
+              </div>
+              <div class="gallery-item">
+                <img src="images/poster1.jpg" alt="Gallery Image 4" />
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+
+      <div class="about-me">
+        <img src="images/1.jpeg" alt="Uca Nazira" />
+        <h2>Uca Nazira</h2>
+        <p>
+          Hello, my name is Uca Nazira, a student majoring in Information
+          Technology at Universitas Muhammadiyah Sumatera Utara. Currently, I
+          have a strong interest in web development, graphic design, and
+          editing.
+        </p>
+
+        <div class="social-icons">
+          <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+          <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+          <a href="#"><i class="fa-brands fa-youtube"></i></a>
+          <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+        </div>
+
+        <div class="subscribe">
+          <h2>Subscribe to My Channel</h2>
+          <div class="video-container">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/Fwhr6UxbznU"
+              frameborder="0"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+        <div class="linkedin-badge">
+          <h2>Follow</h2>
+          <div
+            class="LI-profile-badge"
+            data-version="v1"
+            data-size="medium"
+            data-locale="en_US"
+            data-type="horizontal"
+            data-theme="dark"
+            data-vanity="uca-nazira-3409652ab"
+          >
+            <a
+              class="LI-simple-link"
+              href="https://www.linkedin.com/in/uca-nazira-3409652ab?trk=profile-badge"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      feather.replace();
+    </script>
+    <script
+      type="text/javascript"
+      src="https://platform.linkedin.com/badges/js/profile.js"
+      async
+      defer
+    ></script>
+    <script src="autocomplete.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
