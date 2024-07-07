@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ucanazira</title>
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="swiper-bundle.min.css" />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Aboreto"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link
+      href="https://fonts.cdnfonts.com/css/helvetica-neue-lt-pro-55"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.cdnfonts.com/css/konecya" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/c4254e24a8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <!-- Navbar Start -->
+      <div class="header-bar">
+        <div class="Logo">
+          <a href="index.html" rel="home">ucanazira</a>
+        </div>
+        <nav class="navbar">
+          <ul class="navbar-menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="#">PORTFOLIO</a></li>
+            <li>
+              <a href="">BLOG</a>
+              <ul class="sub-menu">
+                <li><a href="">FOOD</a></li>
+                <li><a href="Education/index.html">EDUCATION</a></li>
+                <li><a href="#">ART AND DESAIN</a></li>
+                <li><a href="#">CRAFTS AND DIY</a></li>
+              </ul>
+            </li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </nav>
+
+        <div class="search-box">
+          <div class="row">
+            <input
+              type="text"
+              id="input-box"
+              placeholder="search"
+              autocomplete="off"
+            />
+            <button><i class="fa-solid fa-magnifying-glass"></i></button>
+          </div>
+        </div>
+        <div class="result-box"></div>
+      </div>
+    </header>
+    <!-- Navbar End -->
+
+    <!-- Icons Script -->
+    <script>
+      feather.replace();
+    </script>
+    <script src="autocomplete.js"></script>
+  </body>
+</html>

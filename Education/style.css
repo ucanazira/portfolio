@@ -1,0 +1,173 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-color: #f8f8f8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 30px;
+}
+
+.Logo a {
+  text-decoration: none;
+  color: #333;
+  font-family: "Playfair Display SC", serif; /* Updated font */
+  font-size: 32px;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #888787;
+  font-size: 16px;
+  padding: 10px 15px;
+  transition: color 0.3s ease;
+}
+
+.navbar-menu li a:hover {
+  color: #000000;
+}
+
+/* Submenu Styling */
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  z-index: 1;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Menambahkan bayangan untuk efek mendalam */
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  border-radius: 5px; /* Membuat sudut border radius */
+  padding: 10px;
+  font-size: 9px;
+}
+
+.navbar-menu li:hover .sub-menu {
+  display: block;
+  opacity: 1; /* Memperlihatkan submenu dengan opasitas penuh */
+}
+
+.sub-menu li {
+  display: block;
+  transition: background-color 0.3s ease; /* Efek transisi pada hover */
+}
+
+.sub-menu li a {
+  padding: 10px 15px;
+  color: #000000;
+  text-decoration: none;
+  display: block;
+  border-radius: 3px; /* Membuat sudut border radius pada tautan */
+}
+
+.sub-menu li a:hover {
+  color: #888787; /* Warna teks saat tautan dihover */
+  transition: background-color 0.3s ease; /* Efek transisi pada hover */
+}
+
+/* Aligning Header Elements in a Row */
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.Logo,
+.navbar {
+  flex: 1;
+}
+
+.navbar {
+  justify-content: center;
+}
+
+/* Search box */
+.search-box {
+  width: 220px;
+  background: #fff;
+  margin: 5px auto 0;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  padding: 5px 8px; /* Adjusted padding for better spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.search-box input {
+  flex: 1;
+  height: 20px; /* Increased height for better visibility */
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 14px; /* Increased font size for better readability */
+  color: #000;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+}
+
+button .fa-solid {
+  width: 25px;
+  color: #333;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: #333;
+}
+
+/* Result Box */
+.result-box {
+  max-height: 200px;
+  overflow-y: scroll;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  width: 100%; /* Sesuaikan dengan lebar yang diinginkan */
+  display: none;
+  margin-left: 1300px; /* Sesuaikan margin kiri */
+}
+
+.result-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.result-box ul li {
+  padding: 15px 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.result-box ul li:hover {
+  background-color: #f0f0f0;
+}
